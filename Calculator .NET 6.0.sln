@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator .NET 6.0", "Calculator .NET 6.0.csproj", "{D3EBFE66-872E-4C1C-9A4F-602D45A8A54D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator .NET 6.0.Test", "..\Calculator .NET 6.0.Test\Calculator .NET 6.0.Test.csproj", "{B6C10B32-6E2A-4680-8F97-3FB4FE4140DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D3EBFE66-872E-4C1C-9A4F-602D45A8A54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3EBFE66-872E-4C1C-9A4F-602D45A8A54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3EBFE66-872E-4C1C-9A4F-602D45A8A54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C10B32-6E2A-4680-8F97-3FB4FE4140DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C10B32-6E2A-4680-8F97-3FB4FE4140DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C10B32-6E2A-4680-8F97-3FB4FE4140DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C10B32-6E2A-4680-8F97-3FB4FE4140DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

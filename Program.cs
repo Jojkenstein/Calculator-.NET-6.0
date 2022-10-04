@@ -83,19 +83,19 @@ static double Add(double a, double b)
 {
     return a + b;
 }
-static double Sub(double a, double b)
+double Sub(double a, double b)
 {
     return a - b;
 }
-static double Mul(double a, double b)
+double Mul(double a, double b)
 {
     return a * b;
 }
-static double Div(double a, double b)
+double Div(double a, double b)
 {
     return a / b;
 }
-static Boolean Exiting(string e)
+Boolean Exiting(string e)
 {
     Boolean E = false;
     if (e == "e")
