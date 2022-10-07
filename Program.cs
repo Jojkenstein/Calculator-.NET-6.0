@@ -1,4 +1,7 @@
-﻿bool exit = false;
+﻿using Calculator_.NET_6._0;
+
+Calc calc = new Calc();
+bool exit = false;
 while (!exit) // istället för "exit == false"
 {
     double sum = 0;
@@ -37,17 +40,17 @@ while (!exit) // istället för "exit == false"
     switch (op)
     {
         case '+':
-            sum = Add(A, B);
+            sum = calc.Add(A, B);
             break;
 
 
         case '-':
-            sum = Sub(A, B);
+            sum = calc.Sub(A, B);
             break;
 
 
         case '*':
-            sum = Mul(A, B);
+            sum = calc.Mul(A, B);
             break;
 
 
@@ -60,7 +63,7 @@ while (!exit) // istället för "exit == false"
                 Console.ResetColor();
                 break;
             }
-            sum = Div(A, B);
+            sum = calc.Div(A, B);
             break;
         case 'e':
             exit = true;
@@ -78,22 +81,6 @@ while (!exit) // istället för "exit == false"
     Console.ReadKey();
 ending:
     Console.Clear();
-}
-static double Add(double a, double b)
-{
-    return a + b;
-}
-double Sub(double a, double b)
-{
-    return a - b;
-}
-double Mul(double a, double b)
-{
-    return a * b;
-}
-double Div(double a, double b)
-{
-    return a / b;
 }
 Boolean Exiting(string e)
 {
